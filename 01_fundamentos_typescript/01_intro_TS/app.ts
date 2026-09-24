@@ -1,5 +1,5 @@
-import {PeopleAccount} from '../class/PeopleAccount'
-import {CompanyAccount} from '../class/CompanyAccount'
+import {PeopleAccount} from './class/PeopleAccount'
+import {CompanyAccount} from './class/CompanyAccount'
 
 const peopleAccount: PeopleAccount = new PeopleAccount(1, 'Tricia', 234) 
 peopleAccount.deposit()
